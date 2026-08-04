@@ -1,4 +1,4 @@
-�r�^�f��ئ{N�y�'vî���variable "subscription_id" {
+variable "subscription_id" {
   description = "Azure subscription ID used for the deployment."
   type        = string
   sensitive   = true
