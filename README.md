@@ -2,7 +2,19 @@
 
 This repository provisions a small, secure Azure foundation for a web workload. It is designed as a portfolio project for Cloud Operations and Azure Infrastructure roles.
 
-> Status: Infrastructure code only. Nothing is deployed until you run `terraform apply` using your own Azure subscription.
+> Status: Successfully deployed and verified in Azure on 4 August 2026. The optional VM remains disabled to control cost.
+
+## Deployment verification
+
+This project was deployed to **Central India** using Terraform. The verified deployment includes:
+
+- Resource group, virtual network, and two subnets
+- Application Network Security Group and subnet association
+- Secure Storage Account
+- Azure Key Vault
+- Log Analytics workspace
+
+The deployment was checked using `terraform state list` and Terraform outputs. No virtual machine or public IP was created.
 
 ## What this demonstrates
 
