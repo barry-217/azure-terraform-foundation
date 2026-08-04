@@ -1,0 +1,16 @@
+# Copy this file to terraform.tfvars. Do not commit terraform.tfvars.
+
+subscription_id = "00000000-0000-0000-0000-000000000000"
+project_name    = "barathcloud"
+location        = "centralindia"
+environment     = "dev"
+
+# Keep false until you are ready to create a billable VM.
+deploy_vm = false
+
+# Required only when deploy_vm = true.
+# admin_ssh_public_key = "ssh-ed25519 AAAA... your-email@example.com"
+
+tags = {
+  Purpose = "Portfolio"
+}
