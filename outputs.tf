@@ -17,3 +17,11 @@ output "workload_network_security_group_id" {
 output "storage_account_name" {
   value = azurerm_storage_account.main.name
 }
+
+output "key_vault_name" {
+  value = azurerm_key_vault.main.name
+}
+
+output "log_analytics_workspace_name" {
+  value = azurerm_log_analytics_workspace.main.name
+}
