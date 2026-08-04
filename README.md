@@ -16,6 +16,8 @@ This project was deployed to **Central India** using Terraform. The verified dep
 
 The deployment was checked using `terraform state list` and Terraform outputs. No virtual machine or public IP was created.
 
+![Azure Portal view of the deployed Terraform-managed resources](azure-deployment-verification.png)
+
 ## What this demonstrates
 
 - Azure resource organization with a resource group and consistent tagging
